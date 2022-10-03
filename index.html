@@ -7,15 +7,18 @@
     <title>Spotify Top 10 in the 2010's</title>
     <meta name="description" content="Spotify Top 10 from 2010 - 2019" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}" />
+    <link rel="stylesheet" href="screen.css" />
   </head>
 
   <body>
 
-    <canvas id="chart"></canvas>
+   <!--canvas-->
+<canvas id="chart"></canvas>
 
-    <script src="js.js"></script>
-  </body>
+<!-- Chart.js, D3 and linking to javascript file -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js'></script>
+<script  src="./js.js"></script>
 
-
+</body>
 </html>
