@@ -1,4 +1,18 @@
 # 212-music-v2
+
+# 212-music
+
+## virtual environment -- mac
+python3 -m venv env
+source env/bin/activate
+pip install flask
+
+## running flask -- mac
+/Users/maggienew/Documents/Github/212-music
+source env/bin/activate
+export FLASK_APP=run.py
+export FLASK_DEBUG=1
+flask run
  
 <!-- I've (Maggie) added comments to sections that weren't in the orgional README doc before--> 
 
