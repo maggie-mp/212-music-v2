@@ -1,5 +1,4 @@
-
-d3.csv('https://docs.google.com/spreadsheets/d/1w9VFGi9YvxE4qnui7349rdhguLaNH10t40ferIZ15c0/edit?usp=sharing')
+d3.csv('top50.csv')
   .then(makeChart);
 
 function makeChart(songs) {
