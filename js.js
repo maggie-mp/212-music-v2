@@ -1,4 +1,4 @@
-d3.csv('top50.csv')
+d3.csv('https://corsproxy.io/?https://www.dropbox.com/s/n0rvcmexfigsakj/top50.csv?dl=0')
   .then(makeChart);
 
 function makeChart(songs) {
@@ -8,7 +8,7 @@ function makeChart(songs) {
   var chart = new Chart('chart', {
     type: 'horizontalBar',
     data: {
-      labels: songLabels,
+       labels: songLabels,
       datasets: [
         {
           data: [10, 20, 30]
