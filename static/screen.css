@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto';
   color: #333;
-  background-color: #F9F7EB;
+  background-color: whitesmoke;
 }
 
 #title {
@@ -11,5 +11,10 @@ body {
   font-size: 28px;
   letter-spacing: -0.01em;
   color: #333;
+}
+
+#container {
+  padding-right: 2em;
+  padding-left: 1em;
 }
 

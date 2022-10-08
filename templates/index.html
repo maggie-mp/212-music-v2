@@ -9,16 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}" />
      <link rel="stylesheet" href="{{ url_for('static', filename='js.js') }}" />
-
-
   </head>
 
   <body>
 
+<!--heading-->
     <div id="title">Spotify Top 50 in the 2010 - 2019</div>
 
-    <canvas id="chart" width="400px" height="2500px"></canvas>
 
+<!--keys-->
+
+
+<!--canvas with padding-->
+<div id="container">
+    <canvas id="chart" width="400px" height="2250px"></canvas>
+</div>
 
 
 <!-- Chart.js, D3 and linking to javascript file -->
