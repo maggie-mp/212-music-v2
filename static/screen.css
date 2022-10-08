@@ -13,9 +13,3 @@ body {
   color: #333;
 }
 
-#legend {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 10px 10px;
-  font-size: 12px;
-}

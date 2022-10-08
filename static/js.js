@@ -1,6 +1,7 @@
-Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontFamily = 'Trebuchet MS';
 Chart.defaults.global.defaultFontColor = '#333';
 
+// Request data using D3
 d3.csv('/static/top50.csv')
   .then(makeChart);
 
@@ -15,8 +16,8 @@ function makeChart(songs) {
       labels: songLabels,
       datasets: [
         {
-           data: popsData
-        }
+          data: popsData
+        } 
       ]
     }
   });
