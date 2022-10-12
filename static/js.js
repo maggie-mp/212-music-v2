@@ -5,7 +5,7 @@ Chart.defaults.color = 'black';
 function makeChart(songs) {
   var songLabels = songs.map(function(d) {return d.title});
   var popsData = songs.map(function(d) {return d.popularity});
-  var songColors = songs.map(function(d) {return d.year === '2010' ? '#F15F36' : '#19A0AA';});
+  var songColors = songs.map(function(d) {return d.id === '1' ? 'orange' : 'gainsboro';});
 
   var chart = new Chart('chart', {
  type: 'horizontalBar',
@@ -50,5 +50,5 @@ function makeChart(songs) {
 
 
 // Request data using D3
-d3.csv('/static/top50.csv')
+d3.csv('/static/top50_v2.csv')
   .then(makeChart);
