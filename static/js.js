@@ -1,5 +1,5 @@
 Chart.defaults.global.defaultFontFamily = 'Trebuchet MS';
-Chart.defaults.global.defaultFontColor = 'black';
+Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.color = 'black';
 
 function makeChart(songs) {
