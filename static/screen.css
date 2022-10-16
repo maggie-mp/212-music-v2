@@ -46,6 +46,7 @@ body {
 #container {
   padding-right: 2em;
   padding-left: 2em;
+  padding-bottom: 2em;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
