@@ -3,7 +3,11 @@
 body {
   font-family: 'Roboto';
   color: #333; 
+<<<<<<< Updated upstream
   background-image: url(background_1.jpeg);
+=======
+  background-image: url(background_3.jpeg);
+>>>>>>> Stashed changes
   background-repeat: repeat;
   background-position: top;
   background-size: auto; 
@@ -11,6 +15,7 @@ body {
   font-family: 'Uchen', serif;
   margin: 0;
 
+<<<<<<< Updated upstream
 }
 
 /*#bg {
@@ -18,6 +23,26 @@ body {
   background-color: white;
 }
 
+=======
+}
+
+      .chartCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .chartBox {
+        width: 700px;
+        padding: 20px;
+        background: grey;
+      }
+
+/*#bg {
+  position: auto;
+  background-color: white;
+}
+
+>>>>>>> Stashed changes
 #bg:before {
   content: " ";
   position: absolute;
@@ -46,7 +71,10 @@ body {
 #container {
   padding-right: 2em;
   padding-left: 2em;
+<<<<<<< Updated upstream
   padding-bottom: 2em;
+=======
+>>>>>>> Stashed changes
   background-color: rgba(0, 0, 0, 0.6);
 }
 
