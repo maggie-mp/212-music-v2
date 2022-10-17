@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
+/*graph font and background*/
 body {
   font-family: 'Roboto';
   color: #333; 
@@ -13,11 +14,17 @@ body {
 
 }
 
-/*.box {
+/* event listner text
+
+.box {
   color: red;
 }*/
 
-/*#bg {
+
+
+/* orgional W3 school to lower opacity for background, simplfied version above 
+
+#bg {
   position: auto;
   background-color: white;
 }
@@ -36,6 +43,9 @@ body {
   background-size: auto;
 }*/
 
+
+/*heading styling with black 60% background*/
+
 #title {
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
@@ -46,6 +56,10 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   font-size: 3em;
 }
+
+
+
+/*extra padding*/
 
 #container {
   padding-right: 2em;
