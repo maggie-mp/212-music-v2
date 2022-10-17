@@ -3,18 +3,16 @@ Chart.defaults.global.defaultFontFamily = 'Trebuchet MS';
 Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.color = 'black';
 
-/*making var functions for the CSV data to connect with chart.js*/
+/*making var/map functions for the CSV data to connect with chart.js*/
 
 function makeChart(songs) {
-  var songLabels = songs.map(function(d) {return d.title});
+  var songLabels = songs.map(function(d) {return d.title + '|' + d.artist});
   var popsData = songs.map(function(d) {return d.popularity});
   var songColors = songs.map(function(d) {return d.id === '1' ? 'orange' : 'gainsboro';});
 
 
-  /* trying to add extra legends to make 'filter' with Chart.js, 
-  didn't work even with trial/error with the operators
-
-  var songColors = songs.map(function(d) {return d.year = '2010' + 'orange'});
+  /* trying to add extra legends and adjusting the operators to make 'filter' with Chart.js, didn't work*/
+  /*var songColors = songs.map(function(d) {return d.year = '2010' + 'orange'});
   var songColors = songs.map(function(d) {return d.year = '2011' +'red'});
   var songColors = songs.map(function(d) {return d.year = '2012' + 'green'});
   var songColors = songs.map(function(d) {return d.year = '2013' + 'grey'});
@@ -40,13 +38,14 @@ function makeChart(songs) {
       ]
     },
     options: {
-        tooltip: {
+      /*trying to add extra info in tootip, didn't work*/
+        /*tooltip: {
           callbacks: {
             beforeTitle: function(context) {
               return 'before title';
             },
           }
-      },
+      },*/
             maintainAspectRatio: true,
             legend: {
               display: false
@@ -72,8 +71,8 @@ function makeChart(songs) {
 d3.csv('/static/top50_v2.csv')
   .then(makeChart);
 
-  /* cont. with unsuccessful event listner
+/* cont. with unsuccessful button event listner*/
 
-function changeData(){
+/*function changeData(){
   document.querySelector('.box').style.color = 'blue';
 }*/

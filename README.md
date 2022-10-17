@@ -1,5 +1,4 @@
 # 212-music-v2
-
 # 212-music
 
 ## virtual environment -- mac
@@ -8,7 +7,6 @@ source env/bin/activate
 pip install flask
 
 ## running flask -- mac
-/Users/maggienew/Documents/Github/212-music-v2
 source env/bin/activate
 export FLASK_APP=run.py
 export FLASK_DEBUG=1
